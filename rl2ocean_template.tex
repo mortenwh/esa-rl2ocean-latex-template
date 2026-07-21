@@ -59,13 +59,17 @@
 %\usepackage{subfig}
 
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% DOCUMENT VERSION %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\docID}{ESA-RL2OCEAN-XX}
+\newcommand{\docVersion}{0.1}
+
 
 %This will tell the compiler to do the header style, page and spacing between the header and text
 \fancyhf{}
 \pagestyle{fancy}
 \fancyfoot[C]{\thepage}
-%\fancyhead[LE,RO]{\doclicenseIcon}
-\fancyhead[LE,RO]{\doclicenseImage[imagewidth=2cm]}
+\fancyhead[L]{\docID~V\docVersion}
+\fancyhead[R]{\doclicenseImage[imagewidth=2cm]}
 \renewcommand{\headrulewidth}{0.2pt}
 
 
